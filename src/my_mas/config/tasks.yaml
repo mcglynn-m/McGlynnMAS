@@ -1,0 +1,44 @@
+---
+research_task:
+  description: >
+    Conduct a comprehensive research about {Product_Category} focusing on target brands: {Target_Brands}.
+    Gather detailed product specifications, pricing, and user reviews for each brand.
+    Prioritize key features including: {Needs_Features}.
+    Ensure all information is current and relevant for the year 2024.
+  expected_output: >
+    A comprehensive research report including:
+    - Detailed product specifications for each brand
+    - Current pricing information
+    - Aggregated user reviews and expert opinions
+    - Technical specification comparison
+    - Source documentation and verification log
+  agent: researcher
+
+analysis_task:
+  description: >
+    Develop a structured comparative framework for {Product_Category} across {Target_Brands}.
+    Create evaluation criteria based on consumer needs: {Needs_Features}.
+    Define weighted importance for product attributes and develop comparative scoring mechanisms.
+  expected_output: >
+    A detailed analysis document containing:
+    - Comprehensive requirements document
+    - Feature comparison matrix template
+    - Weighted feature importance scorecard
+    - Normalized feature comparison across brands
+  agent: analyst
+
+summary_task:
+  description: >
+    Synthesize research findings for {Product_Category}.
+    Perform in-depth comparative analysis across {Target_Brands}.
+    Identify key similarities, differences, and unique product strengths.
+    Generate actionable insights based on {Needs_Features}.
+  expected_output: >
+    A comprehensive synthesis report including:
+    - Comparative analysis report
+    - Insights and trend identification
+    - Comparative scoring spreadsheet
+    - Detailed product strengths and weaknesses analysis
+  agent: summary_agent
+
+
