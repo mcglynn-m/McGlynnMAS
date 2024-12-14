@@ -17,5 +17,5 @@ For example:
 “Needs Features”: High-quality sound, long battery life, comfortable for extended wear, good noise cancellation, suitable for professional and personal use
 
 ## Technical Overview
-This project involved using various processes and tools (Anaconda navigator, Pythlon, Visual Studio, GitHub and more) along with the Crewai framework. Three agents are set up to Analyze, Research, and Summarize the results. Review the code and see if you have any questions. 
+This project involved using various processes and tools (Anaconda navigator, Python, Visual Studio, GitHub and more) along with the Crewai framework. Three agents are set up to Analyze, Research, and Summarize the results. Review the code and see if you have any questions. 
 
