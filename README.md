@@ -1,54 +1,19 @@
-# MyMas Crew
+# McGlynn MyMas Crew
 
-Welcome to the MyMas Crew project, powered by [crewAI](https://crewai.com). This template is designed to help you set up a multi-agent AI system with ease, leveraging the powerful and flexible framework provided by crewAI. Our goal is to enable your agents to collaborate effectively on complex tasks, maximizing their collective intelligence and capabilities.
+The goal of this project is to learn how to go from “Prompts to Production,” in building a Multi-Agent system (MAS) for Product Feature Comparison. 
+This collaborative multi-agent system is designed to help consumers make informed purchasing decisions by systematically gathering, analyzing, and presenting comprehensive product feature comparisons across multiple brands and companies.
 
-## Installation
+## Agents
+Each agent is set up to accomplish one or more tasks; agents collaborate with each other.  The process starts effectively using better prompts with various AI assistants (Claude.ai, etc.)  and using their output to help create a project plan, do research, create code, and help with troubleshooting problems.  is final output deliverables, including a report and various charts of comparative data as a result of the agent collaborations. 
 
-Ensure you have Python >=3.10 <=3.13 installed on your system. This project uses [UV](https://docs.astral.sh/uv/) for dependency management and package handling, offering a seamless setup and execution experience.
+## User Input
+In this MAS, the user is prompted for three types of input:  "Product_Category.” "Target_Brands,” and “Needs Features.”  Any relevant input can be used, depending upon the users’ desires.
 
-First, if you haven't already, install uv:
+For example:  
+“Product Category”: Noise-canceling headphones
+“Target Brands”: Sony, Bose, Apple, Beats
+“Needs Features”: High-quality sound, long battery life, comfortable for extended wear, good noise cancellation, suitable for professional and personal use
 
-```bash
-pip install uv
-```
+## Technical Overview
+This project involved using various processes and tools (Anaconda navigator, Pythlon, Visual Studio, GitHub and more) along with the Crewai framework. Three agents are set up to Analyze, Research, and Summarize the results. Review the code and see if you have any questions. 
 
-Next, navigate to your project directory and install the dependencies:
-
-(Optional) Lock the dependencies and install them by using the CLI command:
-```bash
-crewai install
-```
-### Customizing
-
-**Add your `OPENAI_API_KEY` into the `.env` file**
-
-- Modify `src/my_mas/config/agents.yaml` to define your agents
-- Modify `src/my_mas/config/tasks.yaml` to define your tasks
-- Modify `src/my_mas/crew.py` to add your own logic, tools and specific args
-- Modify `src/my_mas/main.py` to add custom inputs for your agents and tasks
-
-## Running the Project
-
-To kickstart your crew of AI agents and begin task execution, run this from the root folder of your project:
-
-```bash
-$ crewai run
-```
-
-This command initializes the my_mas Crew, assembling the agents and assigning them tasks as defined in your configuration.
-
-This example, unmodified, will run the create a `report.md` file with the output of a research on LLMs in the root folder.
-
-## Understanding Your Crew
-
-The my_mas Crew is composed of multiple AI agents, each with unique roles, goals, and tools. These agents collaborate on a series of tasks, defined in `config/tasks.yaml`, leveraging their collective skills to achieve complex objectives. The `config/agents.yaml` file outlines the capabilities and configurations of each agent in your crew.
-
-## Support
-
-For support, questions, or feedback regarding the MyMas Crew or crewAI.
-- Visit our [documentation](https://docs.crewai.com)
-- Reach out to us through our [GitHub repository](https://github.com/joaomdmoura/crewai)
-- [Join our Discord](https://discord.com/invite/X4JWnZnxPb)
-- [Chat with our docs](https://chatg.pt/DWjSBZn)
-
-Let's create wonders together with the power and simplicity of crewAI.
