@@ -72,35 +72,12 @@ Normalized feature comparison matrix
 Insights and trend identification document
 Comparative scoring spreadsheet
 
-4. Reporting Agent
-Role: Recommendation Generation and Presentation
-Key Responsibilities:
-
-Transform analytical findings into consumer-friendly format
-Generate actionable recommendations
-Create visualization of comparison results
-Evaluate products against consumer needs
-
-Tasks:
-
-Design intuitive visual representations of data
-Develop personalized recommendation logic
-Create consumable report formats
-Translate technical specifications into layman's terms
-
-Output Deliverables:
-
-Comprehensive comparison report
-Visual comparison infographics
-Personalized product recommendation summary
-Executive-level findings presentation
 
 Workflow Sequence
 
 Analyst Agent defines requirements and comparison framework
 Researcher Agent collects comprehensive data
 Summary Agent synthesizes and analyzes findings
-Reporting Agent generates final recommendations and visualizations
 
 Technology Stack
 
@@ -181,31 +158,12 @@ A collaborative multi-agent system designed to help consumers make informed purc
 - Insights and trend identification document
 - Comparative scoring spreadsheet
 
-### 4. Reporting Agent
-**Role:** Recommendation Generation and Presentation
-**Key Responsibilities:**
-- Transform analytical findings into consumer-friendly format
-- Generate actionable recommendations
-- Create visualization of comparison results
-- Evaluate products against consumer needs
-
-**Tasks:**
-- Design intuitive visual representations of data
-- Develop personalized recommendation logic
-- Create consumable report formats
-- Translate technical specifications into layman's terms
-
-**Output Deliverables:**
-- Comprehensive comparison report
-- Visual comparison infographics
-- Personalized product recommendation summary
-- Executive-level findings presentation
 
 ## Workflow Sequence
 1. Analyst Agent defines requirements and comparison framework
 2. Researcher Agent collects comprehensive data
 3. Summary Agent synthesizes and analyzes findings
-4. Reporting Agent generates final recommendations and visualizations
+
 
 ## Technology Stack
 - Framework: CrewAI
