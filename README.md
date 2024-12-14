@@ -11,7 +11,9 @@ In this MAS, the user is prompted for three types of input:  "Product_Category.�
 
 For example:  
 “Product Category”: Noise-canceling headphones
+
 “Target Brands”: Sony, Bose, Apple, Beats
+
 “Needs Features”: High-quality sound, long battery life, comfortable for extended wear, good noise cancellation, suitable for professional and personal use
 
 ## Technical Overview
