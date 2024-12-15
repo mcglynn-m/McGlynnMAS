@@ -10,11 +10,11 @@ Each agent is set up to accomplish one or more tasks; agents collaborate with ea
 In this MAS, the user is prompted for three types of input:  "Product_Category.” "Target_Brands,” and “Needs Features.”  Any relevant input can be used, depending upon the users’ desires.
 
 For example:  
-“Product Category”: Noise-canceling headphones
+Product Category: "Noise-canceling headphones"
 
-“Target Brands”: Sony, Bose, Apple, Beats
+Target Brands: "Sony, Bose, Apple, Beats"
 
-“Needs Features”: High-quality sound, long battery life, comfortable for extended wear, good noise cancellation, suitable for professional and personal use
+Needs Features: "High-quality sound, long battery life, comfortable for extended wear, good noise cancellation, suitable for professional and personal use"
 
 ## Technical Overview
 This project involved using various processes and tools (Anaconda navigator, Python, Visual Studio, GitHub and more) along with the Crewai framework. Three agents are set up to Analyze, Research, and Summarize the results. Review the code and see if you have any questions. 
