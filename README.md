@@ -1,16 +1,16 @@
 # McGlynn MyMas Crew
 
 The goal of this project is to learn how to go from “Prompts to Production,” in building a Multi-Agent system (MAS) for a Product Feature Comparison. 
-This collaborative multi-agent system is designed to help consumers make informed purchasing decisions by systematically gathering, analyzing, and presenting comprehensive product feature comparisons across multiple brands and companies.
+This collaborative multi-agent system is designed to help consumers make informed purchasing decisions by systematically gathering, analyzing, and presenting comprehensive product feature comparisons across multiple brands and companies. Three agents are set up to Analyze, Research, and Summarize the results. 
 
 ## Prompts
-Initial prompt for the Project Master Plan by providing the target persona: 
+Initial prompt for the Project Master Plan by providing the goals of the target personas: 
 
 Act as a consumer who wants to compare product features and options from many brands or companies for an informed decision.
 Design a Multi-Agent System (MAS) using CrewAI.com framework. 
 Write a 3-agent MAS master plan.  Describe each agent’s roles, responsibilities, skills, tasks, and output deliverables for the above purpose and output as a markdown format artifact. 
 
-Other prompts are used to help create all the code files (main, crew, agents, tasks).
+Other prompts are used to help create all the code files (main, crew, agents, tasks).  It is an iterative process of providing AI input, reviewing output, checking output, and testing the files.
 
 ## User Input
 In this MAS, the user is prompted for three types of input:  "Product_Category.” "Target_Brands,” and “Needs Features.”  Any relevant input can be used, depending upon the users’ desires.
@@ -88,6 +88,35 @@ Output Deliverables:
 * Insights and trend identification document
 * Comparative scoring spreadsheet
 
-## Technical Overview
-This project involved using various processes and tools (Anaconda navigator, Python, Visual Studio, GitHub and more) along with the Crewai framework. Three agents are set up to Analyze, Research, and Summarize the results. 
+## Technical Overview and Stack
+This project involved using various processes and tools (Anaconda navigator, Python, Visual Studio, GitHub and more) along with the Crewai framework. 
+
+Technology Stack
+Framework: CrewAI
+Language: Python
+
+## Potential Enhancements
+Machine learning for personalized preference adaptation.
+Integration with product brand store APIs for real-time pricing.
+Validation of data by cross-checking brand websites.
+Allowing for more input types to expand this use case.
+
+## Limitations
+Requires detailed user input for accurate results.
+Relies on the trained data.
+## Contributing
+Contributions are welcome! To propose changes:
+
+Fork the repository.
+Create a new branch (feature/your-feature).
+Commit changes and open a pull request.
+## License
+This project is licensed under the MIT License.
+
+## Contact
+For questions or support, contact:
+
+Developer: Marianne McGlynn
+Email: marianne.mcglynn@gmail.com
+GitHub: https://github.com/c1n5/my-planner/
 
