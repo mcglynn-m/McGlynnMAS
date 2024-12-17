@@ -99,7 +99,7 @@ Technology Stack
 The MAS was initially run on my local C: drive, for testing and trouble-shooting. Then it was moved to my crew.ai account via GitHub and run from there.
 
 ## Sample Output -  Comparative Scoring Spreadsheet Summary 
-This is one portion of the entire output.
+This is one portion of the entire output. The entire output includes text, comparative data, the best choice, and a chart of comparative scoring and more.
 
 | Feature                      | Weight (%) | Score: Sony WH-1000XM5 | Score: Bose Noise Cancelling 700 | Score: Apple AirPods Max | Score: Beats Studio3 Wireless |
 |------------------------------|------------|--------------------------|----------------------------------|--------------------------|-------------------------------|
