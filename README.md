@@ -1,17 +1,17 @@
 # McGlynn MyMas Crew
 
-This describes the **Product Feature Comparison Multi-Agent System (MAS)**.The goal of this project is to learn how to go from “Prompts to Production,” meaning building the system from the beginning until the end.
+This describes the **Product Feature Comparison Multi-Agent System (MAS)**.The goal of this project is to learn how to go from “Prompts to Production,” meaning how to build the system from the beginning until the end.
 * This collaborative multi-agent system is designed to help consumers make informed purchasing decisions by systematically gathering, analyzing, and presenting comprehensive product feature comparisons across multiple brands and companies.
 * Three agents are set up to Analyze, Research, and Summarize the results. 
 
 ## Prompts
-Initial prompt for the Project Master Plan providing the goals of the target personas: 
+Once the business goals and strategies are decided, prompts are created. This example is one main prompt for the Project Master Plan and states the goal for the target persona: 
 
 "Act as a consumer who wants to compare product features and options from many brands or companies for an informed decision.
 Design a Multi-Agent System (MAS) using CrewAI.com framework. 
-Write a 3-agent MAS master plan.  Describe each agent’s roles, responsibilities, skills, tasks, and output deliverables for the above purpose and output as a markdown format artifact."
+Write a three-agent MAS master plan.  Describe each agent’s roles, responsibilities, skills, tasks, and output deliverables for the above purpose and output as a markdown format artifact."
 
-Other prompts are used to help create all the code files (main, crew, agents, tasks).  It is an iterative process of providing AI input, reviewing output, checking output, and testing the files.
+ Then other prompts are used to help create all the code files (main, crew, agents, tasks).  It is an iterative process of crafting providing AI input, reviewing output, testing and carefully checking output.
 
 ## User Input
 In this MAS, the user is prompted for three types of input:  "Product_Category.” "Target_Brands,” and “Needs Features.”  Any relevant input can be used, depending upon the users’ desires.
@@ -112,13 +112,14 @@ This is one portion of the entire output.
 
 ## Potential Enhancements
 * Machine learning for personalized preference adaptation.
-* Integration with product brand store APIs for real-time pricing.
-* Validation of data by cross-checking brand websites.
 * Allowing for more input types to expand this use case.
+* Integration with product brand store APIs for real-time pricing.
+* Validation of data by cross-checking brand websites and review websites.
 
 ## Limitations
 * Requires detailed user input for accurate results.
 * Relies on the trained data.
+
 ## Contributing
 Contributions are welcome! To propose changes:
 
