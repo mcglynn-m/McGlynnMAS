@@ -5,6 +5,7 @@ This collaborative multi-agent system is designed to help consumers make informe
 
 ## Prompts
 Initial prompt for a Master Plan: 
+
 Act as a consumer who wants to compare product features and options from many brands or companies for an informed decision.
 Design a Multi-Agent System (MAS) using CrewAI.com framework. 
 Write a 3-agent MAS master plan.  Describe each agent’s roles, responsibilities, skills, tasks, and output deliverables for the above purpose and output as a markdown format artifact. 
@@ -25,44 +26,68 @@ Each agent is set up to accomplish one or more tasks; agents collaborate with ea
 ### 1. Analyst Agent
 Role: Problem Definition and Requirements Gathering Key Responsibilities:
 
-Define the scope of product comparison, Identify critical feature categories and comparison criteria, Establish evaluation framework and metrics,
-Determine consumer decision-making priorities.
+* Define the scope of product comparison
+* Identify critical feature categories and comparison criteria
+* Establish evaluation framework and metrics
+* Determine consumer decision-making priorities
 
 Tasks:
 
-Create a structured feature comparison template, Define weighted importance for different product attributes, Develop initial set of comparative parameters,
-Validate requirements with other agents.
+* Create a structured feature comparison template
+* Define weighted importance for different product attributes
+* Develop initial set of comparative parameters
+* Validate requirements with other agents
 
 Output Deliverables:
-Comprehensive requirements document, Feature comparison matrix template, Weighted feature importance scorecard.
+* Comprehensive requirements document
+* Feature comparison matrix template
+* Weighted feature importance scorecard
 
 ### 2. Researcher Agent
 Role: Information Collection and Data Aggregation Key Responsibilities:
 
-Gather detailed product specifications, Collect pricing information, Source user reviews and expert opinions, Compile technical specifications from multiple sources.
+* Gather detailed product specifications
+* Collect pricing information
+* Source user reviews and expert opinions
+* Compile technical specifications from multiple sources
 
 Tasks:
 
-Perform web research across manufacturer websites, Collect product specification sheets, Aggregate user reviews from verified platforms, Cross-reference technical specifications, Validate data accuracy and recency.
+* Perform web research across manufacturer websites
+* Collect product specification sheets
+* Aggregate user reviews from verified platforms
+* Cross-reference technical specifications
+* Validate data accuracy and recency
 
 Output Deliverables:
 
-Detailed product specification spreadsheet, Aggregated user review summary, Price comparison chart, Source documentation log.
+* Detailed product specification spreadsheet
+* Aggregated user review summary
+* Price comparison chart
+* Source documentation log.
 
 ### 3. Summary Agent
 Role: Findings Synthesis and Analysis Key Responsibilities:
 
-Consolidate research findings, Perform comparative analysis, Identify key similarities and differences, Generate insights from collected data.
+* Consolidate research findings
+* Perform comparative analysis
+* Identify key similarities and differences
+* Generate insights from collected data
 
 Tasks:
 
-Normalize data across different product lines, Create comparative scoring mechanisms, Highlight unique product strengths and weaknesses
-Develop preliminary comparative insights
+* Normalize data across different product lines 
+* Create comparative scoring mechanisms
+* Highlight unique product strengths and weaknesses
+* Develop preliminary comparative insights
 
 Output Deliverables:
 
-Comparative analysis report, Normalized feature comparison matrix, Insights and trend identification document, Comparative scoring spreadsheet
+* Comparative analysis report
+* Normalized feature comparison matrix
+* Insights and trend identification document
+* Comparative scoring spreadsheet
 
 ## Technical Overview
-This project involved using various processes and tools (Anaconda navigator, Python, Visual Studio, GitHub and more) along with the Crewai framework. Three agents are set up to Analyze, Research, and Summarize the results. Review the code and see if you have any questions. 
+This project involved using various processes and tools (Anaconda navigator, Python, Visual Studio, GitHub and more) along with the Crewai framework. Three agents are set up to Analyze, Research, and Summarize the results. 
 
