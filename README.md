@@ -118,5 +118,5 @@ For questions or support, contact:
 
 Developer: Marianne McGlynn
 Email: marianne.mcglynn@gmail.com
-GitHub: https://github.com/c1n5/my-planner/
+GitHub: https://github.com/mcglynn-m/McGlynnMAS.git
 
