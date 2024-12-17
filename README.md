@@ -4,7 +4,7 @@ The goal of this project is to learn how to go from “Prompts to Production,”
 This collaborative multi-agent system is designed to help consumers make informed purchasing decisions by systematically gathering, analyzing, and presenting comprehensive product feature comparisons across multiple brands and companies. Three agents are set up to Analyze, Research, and Summarize the results. 
 
 ## Prompts
-Initial prompt for the Project Master Plan by providing the goals of the target personas: 
+Initial prompt for the Project Master Plan providing the goals of the target personas: 
 
 Act as a consumer who wants to compare product features and options from many brands or companies for an informed decision.
 Design a Multi-Agent System (MAS) using CrewAI.com framework. 
@@ -92,24 +92,24 @@ Output Deliverables:
 This project involved using various processes and tools (Anaconda navigator, Python, Visual Studio, GitHub and more) along with the Crewai framework. 
 
 Technology Stack
-Framework: CrewAI
-Language: Python
+* Framework: CrewAI
+* Language: Python
 
 ## Potential Enhancements
-Machine learning for personalized preference adaptation.
-Integration with product brand store APIs for real-time pricing.
-Validation of data by cross-checking brand websites.
-Allowing for more input types to expand this use case.
+* Machine learning for personalized preference adaptation.
+* Integration with product brand store APIs for real-time pricing.
+* Validation of data by cross-checking brand websites.
+* Allowing for more input types to expand this use case.
 
 ## Limitations
-Requires detailed user input for accurate results.
-Relies on the trained data.
+* Requires detailed user input for accurate results.
+* Relies on the trained data.
 ## Contributing
 Contributions are welcome! To propose changes:
 
-Fork the repository.
-Create a new branch (feature/your-feature).
-Commit changes and open a pull request.
+* Fork the repository.
+* Create a new branch (feature/your-feature).
+* Commit changes and open a pull request.
 ## License
 This project is licensed under the MIT License.
 
