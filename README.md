@@ -1,6 +1,6 @@
 # McGlynn MyMas Crew
 
-This describes the ***Product Feature Comparison Multi-Agent System (MAS)***.The goal of this project is to learn how to go from “Prompts to Production,” meaning building the system from the beginning until the end.
+This describes the **Product Feature Comparison Multi-Agent System (MAS)**.The goal of this project is to learn how to go from “Prompts to Production,” meaning building the system from the beginning until the end.
 * This collaborative multi-agent system is designed to help consumers make informed purchasing decisions by systematically gathering, analyzing, and presenting comprehensive product feature comparisons across multiple brands and companies.
 * Three agents are set up to Analyze, Research, and Summarize the results. 
 
