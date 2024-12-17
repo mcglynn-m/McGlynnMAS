@@ -1,14 +1,15 @@
 # McGlynn MyMas Crew
 
-The goal of this project is to learn how to go from “Prompts to Production,” in building a Multi-Agent system (MAS) for a Product Feature Comparison. 
-This collaborative multi-agent system is designed to help consumers make informed purchasing decisions by systematically gathering, analyzing, and presenting comprehensive product feature comparisons across multiple brands and companies. Three agents are set up to Analyze, Research, and Summarize the results. 
+This describes the ***Product Feature Comparison Multi-Agent System (MAS)***.The goal of this project is to learn how to go from “Prompts to Production,” meaning building the system from the beginning until the end.
+* This collaborative multi-agent system is designed to help consumers make informed purchasing decisions by systematically gathering, analyzing, and presenting comprehensive product feature comparisons across multiple brands and companies.
+* Three agents are set up to Analyze, Research, and Summarize the results. 
 
 ## Prompts
 Initial prompt for the Project Master Plan providing the goals of the target personas: 
 
-Act as a consumer who wants to compare product features and options from many brands or companies for an informed decision.
+"Act as a consumer who wants to compare product features and options from many brands or companies for an informed decision.
 Design a Multi-Agent System (MAS) using CrewAI.com framework. 
-Write a 3-agent MAS master plan.  Describe each agent’s roles, responsibilities, skills, tasks, and output deliverables for the above purpose and output as a markdown format artifact. 
+Write a 3-agent MAS master plan.  Describe each agent’s roles, responsibilities, skills, tasks, and output deliverables for the above purpose and output as a markdown format artifact."
 
 Other prompts are used to help create all the code files (main, crew, agents, tasks).  It is an iterative process of providing AI input, reviewing output, checking output, and testing the files.
 
@@ -116,7 +117,7 @@ This project is licensed under the MIT License.
 ## Contact
 For questions or support, contact:
 
-Developer: Marianne McGlynn
-Email: marianne.mcglynn@gmail.com
-GitHub: https://github.com/mcglynn-m/McGlynnMAS.git
+* Developer: Marianne McGlynn
+* Email: marianne.mcglynn@gmail.com
+* GitHub: https://github.com/mcglynn-m/McGlynnMAS.git
 
