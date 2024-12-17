@@ -4,12 +4,12 @@ The goal of this project is to learn how to go from “Prompts to Production,”
 This collaborative multi-agent system is designed to help consumers make informed purchasing decisions by systematically gathering, analyzing, and presenting comprehensive product feature comparisons across multiple brands and companies.
 
 ## Prompts
-Initial prompt for a Master Plan: As a consumer looking for quality productsAct as a consumer, compare product features and options from many brands or companies for an informed decision.
+Initial prompt for a Master Plan: 
+Act as a consumer who wants to compare product features and options from many brands or companies for an informed decision.
 Design a Multi-Agent System (MAS) using CrewAI.com framework. 
 Write a 3-agent MAS master plan.  Describe each agent’s roles, responsibilities, skills, tasks, and output deliverables for the above purpose and output as a markdown format artifact. 
 
-Other prompts used to create agent code files.
-
+Other prompts are used to help create all files (main, crew, agents, tasks).
 
 ## User Input
 In this MAS, the user is prompted for three types of input:  "Product_Category.” "Target_Brands,” and “Needs Features.”  Any relevant input can be used, depending upon the users’ desires.
