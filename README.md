@@ -90,13 +90,15 @@ Output Deliverables:
 * Comparative scoring spreadsheet
 
 ## Technical Overview and Stack
-This project involved using various processes and tools (Anaconda navigator, Python, Visual Studio, GitHub and more) along with the Crewai framework. 
+This project involved using various processes and tools (Anaconda navigator, Python, Visual Studio, GitHub and more) along with the Crewai framework (crew.ai). 
 
 Technology Stack
 * Framework: CrewAI
 * Language: Python
-## Sample Output
-### 3. Comparative Scoring Spreadsheet Summary 
+
+The MAS was initially run on my local C: drive, for testing and trouble-shooting. Then it was moved to my crew.ai account via GitHub and run from there.
+
+## Sample Output -  Comparative Scoring Spreadsheet Summary 
 This is one portion of the entire output.
 
 | Feature                      | Weight (%) | Score: Sony WH-1000XM5 | Score: Bose Noise Cancelling 700 | Score: Apple AirPods Max | Score: Beats Studio3 Wireless |
