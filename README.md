@@ -95,6 +95,18 @@ This project involved using various processes and tools (Anaconda navigator, Pyt
 Technology Stack
 * Framework: CrewAI
 * Language: Python
+## Sample Output
+### 3. Comparative Scoring Spreadsheet Summary 
+This is one portion of the entire output.
+
+| Feature                      | Weight (%) | Score: Sony WH-1000XM5 | Score: Bose Noise Cancelling 700 | Score: Apple AirPods Max | Score: Beats Studio3 Wireless |
+|------------------------------|------------|--------------------------|----------------------------------|--------------------------|-------------------------------|
+| Sound Quality                | 30%        | 9 (2.7)                  | 8 (2.4)                          | 9 (2.7)                  | 7 (2.1)                       |
+| Battery Life                 | 20%        | 10 (2.0)                 | 7 (1.4)                          | 7 (1.4)                  | 8 (1.6)                       |
+| Comfort                      | 20%        | 9 (1.8)                  | 8 (1.6)                          | 8 (1.6)                  | 6 (1.2)                       |
+| Noise Cancellation           | 20%        | 10 (2.0)                 | 9 (1.8)                          | 9 (1.8)                  | 7 (1.4)                       |
+| Use Case                    | 10%        | 9 (0.9)                  | 8 (0.8)                          | 8 (0.8)                  | 7 (0.7)                       |
+| **Total Score**             | 100%       | **9.4**                  | **8.0**                          | **8.5**                  | **7.0**                       |
 
 ## Potential Enhancements
 * Machine learning for personalized preference adaptation.
