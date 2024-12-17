@@ -1,7 +1,8 @@
 # McGlynn MyMas Crew
 
 This describes the **Product Feature Comparison Multi-Agent System (MAS)**.The goal of this project is to learn how to go from “Prompts to Production,” meaning how to build the system from the beginning until the end.
-* This collaborative multi-agent system is designed to help consumers make informed purchasing decisions by systematically gathering, analyzing, and presenting comprehensive product feature comparisons across multiple brands and companies. It is built with the **CrewAI framework**.
+* This collaborative multi-agent system is designed to help consumers make informed purchasing decisions by systematically gathering, analyzing, and presenting comprehensive product feature comparisons across multiple brands and companies.
+* It is built with the **CrewAI framework**. Crew AI is an open-source Python framework designed to create and manage multi-agent systems.
 * Three agents are set up to Analyze, Research, and Summarize the results. 
 
 ## Prompts
