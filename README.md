@@ -1,7 +1,7 @@
 # McGlynn MyMas Crew
 
 This describes the **Product Feature Comparison Multi-Agent System (MAS)**.The goal of this project is to learn how to go from “Prompts to Production,” meaning how to build the system from the beginning until the end.
-* This collaborative multi-agent system is designed to help consumers make informed purchasing decisions by systematically gathering, analyzing, and presenting comprehensive product feature comparisons across multiple brands and companies.
+* This collaborative multi-agent system is designed to help consumers make informed purchasing decisions by systematically gathering, analyzing, and presenting comprehensive product feature comparisons across multiple brands and companies. It is built with the **CrewAI framework**.
 * Three agents are set up to Analyze, Research, and Summarize the results. 
 
 ## Prompts
@@ -97,6 +97,10 @@ Technology Stack
 * Language: Python
 
 The MAS was initially run on my local C: drive, for testing and trouble-shooting. Then it was moved to my crew.ai account via GitHub and run from there.
+## Workflow
+1. Analyst: Defines comprehensive comparison frameworks and establishes criteria for systematic product evaluation.
+2. Researcher: Gathers comprehensive and accurate product specifications, pricing, and user reviews across multiple sources.
+3. Summary Agent: Synthesizes research findings, performs in-depth comparative analysis, and generates meaningful insights.
 
 ## Sample Output -  Comparative Scoring Spreadsheet Summary 
 This is one portion of the entire output. The entire output includes text, comparative data, the best choice, and a chart of comparative scoring and more.
