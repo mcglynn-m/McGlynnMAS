@@ -8,7 +8,7 @@ This describes the **Product Feature Comparison Multi-Agent System (MAS)**.The g
 How was this implemented?
 * This was a "no code" approach, meaning that by knowing how to effectively prompt a Large Language Model (LLM) with examples and commands, no direct written coding is required from the user.
 * The project used several LLMs (Claude.ai, Getliner.ai, more) for prompt queries.
-* This project required setting up an integrated development environment (IDE). This including using tools such as Anaconda Navigator (runs Crewai code and sets up the Python environment), Visual Studio (code editor), and GitHub (sharing the project code with others and doing version control). Python code is well-known for its efficiency, multiple libraries support, and flexibility for Machine Learning (ML) and Artificial Intelligence (AI) projects.
+* This project required setting up an integrated development environment (IDE). This included using tools such as Anaconda Navigator (runs Crewai code and sets up the Python environment), Visual Studio (code editor), and GitHub (sharing the project code with others and doing version control). Python code is well-known for its efficiency, multiple libraries support, and flexibility for Machine Learning (ML) and Artificial Intelligence (AI) projects.
 
 ## Prompts
 Once the business goals and strategies are decided, prompts are created. This example is one main prompt for the Project Master Plan and states the goal for the target persona: 
