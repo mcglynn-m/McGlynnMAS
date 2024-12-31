@@ -1,11 +1,13 @@
 # McGlynn MyMas Crew
 
-This describes the **Product Feature Comparison Multi-Agent System (MAS)**.The goal of this project is to learn how to go from “Prompts to Production,” meaning how to build the system from the beginning (input) until the end (getting the best output.)
+This describes the **Product Feature Comparison Multi-Agent System (MAS)**.The goal of this project is to learn how to go from “Prompts to Production,” meaning how to build the system from the beginning input through to the end for useful output.
 * This collaborative multi-agent system is designed to help consumers make informed purchasing decisions by systematically gathering, analyzing, and presenting comprehensive product feature comparisons across multiple brands and companies.
 * It is built with the **CrewAI framework**. Crew AI is an open-source Python framework designed to create and manage multi-agent systems.
 * Three agents are set up to Analyze, Research, and Summarize the results. 
-* This is a "no code" approach, meaning that by knowing how to prompt a Large Language Model (LLM) with examples and commands and checking the code, no direct coding is required from the user.
-* The project also used several LLMs (Claude.ai, Getliner.ai, more) for prompts and several tools,  Anaconda Navigator (runs Crewai code and sets environment), Visual Studio (code editor), and GitHub for sharing the project code with others and doing version control.
+
+How was this implemented?
+* This was a "no code" approach, meaning that by knowing how to prompt a Large Language Model (LLM) with examples and commands, while checking the code, no written coding is required from the user.
+* The project used several LLMs (Claude.ai, Getliner.ai, more) for prompt queries and several development tools,  Anaconda Navigator (runs Crewai code and sets python environment), Visual Studio (code editor), and GitHub (sharing the project code with others and doing version control).
 
 ## Prompts
 Once the business goals and strategies are decided, prompts are created. This example is one main prompt for the Project Master Plan and states the goal for the target persona: 
